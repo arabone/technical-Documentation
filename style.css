@@ -1,0 +1,15 @@
+body{
+  background-color: cadetblue;
+}
+@media only screen and(max-width:800px)
+{
+  /*For mobile phones:*/
+  #VD_logo{
+  position:absolute;
+  height:auto;
+  min-width:300px;
+  width:300px;
+  top:10px;
+  left:0px;
+  z-index:2;
+  }
